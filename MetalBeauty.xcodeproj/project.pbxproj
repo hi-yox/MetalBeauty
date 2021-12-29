@@ -15,6 +15,13 @@
 		9C924099276876C2009D5923 /* MetalBeautyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C924098276876C2009D5923 /* MetalBeautyTests.m */; };
 		9C9240A3276876C2009D5923 /* MetalBeautyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9240A2276876C2009D5923 /* MetalBeautyUITests.m */; };
 		9C9240A5276876C2009D5923 /* MetalBeautyUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9240A4276876C2009D5923 /* MetalBeautyUITestsLaunchTests.m */; };
+		9C9240B9276876E8009D5923 /* MTImageEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9240B3276876E8009D5923 /* MTImageEngine.m */; };
+		9C9240BA276876E8009D5923 /* MTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9240B5276876E8009D5923 /* MTImage.m */; };
+		9C9240BB276876E8009D5923 /* MTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9240B6276876E8009D5923 /* MTView.m */; };
+		9C9240BC276876E8009D5923 /* MTShaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9240B7276876E8009D5923 /* MTShaders.m */; };
+		9C9240C1276876F9009D5923 /* CMRTCCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9240BE276876F9009D5923 /* CMRTCCapturer.m */; };
+		9C9240C2276876F9009D5923 /* CMRTCCapturer+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9240C0276876F9009D5923 /* CMRTCCapturer+Private.m */; };
+		9CC8497827687C75009259E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CC8497727687C75009259E0 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,19 @@
 		9C92409E276876C2009D5923 /* MetalBeautyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalBeautyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9240A2276876C2009D5923 /* MetalBeautyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalBeautyUITests.m; sourceTree = "<group>"; };
 		9C9240A4276876C2009D5923 /* MetalBeautyUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalBeautyUITestsLaunchTests.m; sourceTree = "<group>"; };
+		9C9240B1276876E8009D5923 /* MTShaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTShaders.h; sourceTree = "<group>"; };
+		9C9240B2276876E8009D5923 /* MTImageEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTImageEngine.h; sourceTree = "<group>"; };
+		9C9240B3276876E8009D5923 /* MTImageEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTImageEngine.m; sourceTree = "<group>"; };
+		9C9240B4276876E8009D5923 /* MTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTImage.h; sourceTree = "<group>"; };
+		9C9240B5276876E8009D5923 /* MTImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTImage.m; sourceTree = "<group>"; };
+		9C9240B6276876E8009D5923 /* MTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTView.m; sourceTree = "<group>"; };
+		9C9240B7276876E8009D5923 /* MTShaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTShaders.m; sourceTree = "<group>"; };
+		9C9240B8276876E8009D5923 /* MTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTView.h; sourceTree = "<group>"; };
+		9C9240BD276876F9009D5923 /* CMRTCCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRTCCapturer.h; sourceTree = "<group>"; };
+		9C9240BE276876F9009D5923 /* CMRTCCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMRTCCapturer.m; sourceTree = "<group>"; };
+		9C9240BF276876F9009D5923 /* CMRTCCapturer+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMRTCCapturer+Private.h"; sourceTree = "<group>"; };
+		9C9240C0276876F9009D5923 /* CMRTCCapturer+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMRTCCapturer+Private.m"; sourceTree = "<group>"; };
+		9CC8497727687C75009259E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,19 @@
 				9C924083276876C0009D5923 /* AppDelegate.m */,
 				9C924085276876C0009D5923 /* ViewController.h */,
 				9C924086276876C0009D5923 /* ViewController.m */,
+				9C9240BD276876F9009D5923 /* CMRTCCapturer.h */,
+				9C9240BE276876F9009D5923 /* CMRTCCapturer.m */,
+				9C9240BF276876F9009D5923 /* CMRTCCapturer+Private.h */,
+				9C9240C0276876F9009D5923 /* CMRTCCapturer+Private.m */,
+				9C9240B4276876E8009D5923 /* MTImage.h */,
+				9C9240B5276876E8009D5923 /* MTImage.m */,
+				9C9240B2276876E8009D5923 /* MTImageEngine.h */,
+				9C9240B3276876E8009D5923 /* MTImageEngine.m */,
+				9C9240B1276876E8009D5923 /* MTShaders.h */,
+				9C9240B7276876E8009D5923 /* MTShaders.m */,
+				9C9240B8276876E8009D5923 /* MTView.h */,
+				9C9240B6276876E8009D5923 /* MTView.m */,
+				9CC8497727687C75009259E0 /* Info.plist */,
 				9C924088276876C2009D5923 /* Assets.xcassets */,
 				9C92408A276876C2009D5923 /* Main.storyboard */,
 				9C92408D276876C2009D5923 /* main.m */,
@@ -233,6 +266,7 @@
 			files = (
 				9C924089276876C2009D5923 /* Assets.xcassets in Resources */,
 				9C92408C276876C2009D5923 /* Main.storyboard in Resources */,
+				9CC8497827687C75009259E0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,9 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9240B9276876E8009D5923 /* MTImageEngine.m in Sources */,
+				9C9240C1276876F9009D5923 /* CMRTCCapturer.m in Sources */,
+				9C9240BC276876E8009D5923 /* MTShaders.m in Sources */,
+				9C9240C2276876F9009D5923 /* CMRTCCapturer+Private.m in Sources */,
 				9C924087276876C0009D5923 /* ViewController.m in Sources */,
+				9C9240BA276876E8009D5923 /* MTImage.m in Sources */,
 				9C92408E276876C2009D5923 /* main.m in Sources */,
 				9C924084276876C0009D5923 /* AppDelegate.m in Sources */,
+				9C9240BB276876E8009D5923 /* MTView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +470,7 @@
 				DEVELOPMENT_TEAM = 67A85TH4HV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "${PROJECT_DIR}/MetalBeauty/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -437,6 +478,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sg.linkv.MetalBeauty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,6 +498,7 @@
 				DEVELOPMENT_TEAM = 67A85TH4HV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "${PROJECT_DIR}/MetalBeauty/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -463,6 +506,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sg.linkv.MetalBeauty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
